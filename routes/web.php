@@ -13,5 +13,5 @@ Route::post('register', [AuthController::class, 'register']);
 Route::post('login', [AuthController::class, 'login']);
 Route::post('logout', [AuthController::class, 'logout']);
 
-// Task Routes (Harus autentikasi)
+// Task Routes 
 Route::apiResource('tasks', TaskController::class);
